@@ -130,7 +130,7 @@ WI.before.update(function(userId, doc, fieldNames, modifier, options) {
   var key = fieldNames[0];
   var docs = modifier[key];
   console.log(key)
-  console.log(docs)
+  console.log(docs[key])
   
   
   
