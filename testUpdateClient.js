@@ -38,6 +38,7 @@ this.generateRecommend = function(i) {
 };
 
 Meteor.startup(function() {
+  return;
   var testing;
 
   if (Meteor.isClient) {
